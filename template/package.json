@@ -1,0 +1,14 @@
+{
+  "name": "apidoc-template",
+  "version": "1.0.0",
+  "description": "custom template for apidoc",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "huixisheng@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "json-browse": "^0.2.0"
+  }
+}
