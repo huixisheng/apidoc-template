@@ -473,7 +473,10 @@ require([
           var sourceObject = JSON.parse(source);
         }
         catch (error) {
-          return alert("Cannot eval JSON: " + error);
+            console.log(error);
+            console.log(source);
+            sourceObject = source;
+          // return alert("Cannot eval JSON: " + error);
         }
         // console.log(source);
         $source.next().jsonBrowse(sourceObject, options);
